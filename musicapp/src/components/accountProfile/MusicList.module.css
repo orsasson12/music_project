@@ -1,0 +1,20 @@
+.musicItem{
+   background-color: #fff2;
+    display: grid;
+   grid-template-columns: repeat(2,auto);
+   justify-content: space-between;
+   align-items: center;
+   padding: 8px;
+   border: solid 1px;
+   width: 100%;
+}
+
+.musicItem img{
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.musicItem h2{
+    width: 70%;
+   margin-left: 35px;
+}

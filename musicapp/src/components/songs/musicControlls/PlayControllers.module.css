@@ -1,0 +1,30 @@
+.controlers{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.btn{
+     background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+.btn2{
+   display: flex;
+    margin: 0 30px;
+    padding: 21px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}

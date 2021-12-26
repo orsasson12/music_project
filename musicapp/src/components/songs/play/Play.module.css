@@ -1,0 +1,31 @@
+.cPlayer{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows: repeat(4,auto);
+    background-color: rgba(6, 76, 92, 0.644);
+    max-width: 300px;
+    margin: 25px auto;
+    border-radius: 16px;
+    /* box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4); */
+}
+.cPlayerH4{
+      color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+}
+.cPlayer p{
+     color: #AAA;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    width: 99%;
+    margin-bottom: 9px;
+    
+}
+.icon{
+    color: red;
+    margin-left: 10px;
+}

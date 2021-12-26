@@ -1,0 +1,107 @@
+.navBar{
+   background-image: linear-gradient( rgba(15, 153, 184, 0.973), rgba(0, 0, 0, 0.342));
+    width: 100%;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+#hello .hello{
+    background-color: yellow;
+    color: white;
+}
+.navBar .leftSide{
+    flex: 50%;
+display: flex;
+justify-content: left;
+align-items: center;
+}
+.navBar .leftSide .links{
+    max-height: 80px; 
+}
+
+.navBar .leftSide .links a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.navBar .leftSide button{
+    display: none;
+    margin-left: 20px;
+}
+.navBar .leftSide #hidden{
+    display: flex;
+}
+
+.navBar .rightSide{
+    flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 16px;
+}
+.rightSide input{
+width: 220px;
+height: 30px;
+border: none;
+border-radius: 27px;
+font-size: 15px;
+padding-left: 15px;
+color: black;
+}
+.rightSide button{
+    height: 32px;
+    border: none;
+    width: 70px;
+    font-size: 16px;
+    border-radius: 27px;
+    margin-left:3px;
+}
+button:hover{
+    cursor: pointer;
+}
+#hidden{
+    background-color: black;
+}
+
+@media only screen and (max-width:850px) {
+    .navBar .leftSide .links a{
+        font-size: 20px;
+
+    }
+}
+@media only screen and (max-width:750px) {
+    .navBar .leftSide .links a{
+        font-size: 15px;
+        
+    }
+}
+@media only screen and (max-width:650px) {
+   .navBar .leftSide button{
+       display: flex;
+   }
+      .navBar .leftSide .links{
+          display:none;
+     
+      }
+    .navBar .leftSide #hidden{
+        position: absolute;
+        left: 0px;
+        top: 80px;
+        height: 107px;
+        margin-bottom: 100px;
+         max-height: 230px;
+        width: 27%;
+        background-color:rgba(6, 94, 13, 0.1); ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navBar .leftSide #hidden a {
+        margin: 10px;
+        font-size: 15px;
+    }
+    
+} 
+

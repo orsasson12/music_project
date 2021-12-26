@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+     background-image: linear-gradient( rgba(6,76,92,0.49), rgba(0, 0, 0, 0.342));
+    width: 100%;
+}
+
+
+.main_backGroundColor{
+  background-color: black;
+}
